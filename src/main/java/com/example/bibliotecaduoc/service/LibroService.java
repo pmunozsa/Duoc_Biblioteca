@@ -19,5 +19,9 @@ public class LibroService {
         return libroRepository.buscarPorId(id);
     }
 
+    public Libro getLibroIsbn(String isbn) {
+        return libroRepository.buscarPorIsbn(isbn);
+    }
+
    
 }

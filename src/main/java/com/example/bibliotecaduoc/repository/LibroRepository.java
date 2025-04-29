@@ -31,14 +31,6 @@ public class LibroRepository {
         return listaLibros;
     }
 
-
-
-
-
-
-
-
-
     // Buscar un libro por su id
     public Libro buscarPorId(int id) {
         for (Libro libro : listaLibros) {
